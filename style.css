@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*height: 120vh;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    background-size: 1550px;
+    background-repeat: repeat;
+}
+
+#print {
+    display: none;
+}
+
+.main {
+    margin-top: 5vh;
+}
+
+.btn_box {
+    color: white;
+    background: /*#10101E*/ rgba(255, 255, 255, 0.05);
+    font-family: "Segoe UI", sans-serif;
+    width: 300px;
+    padding: 15px 100px;
+    border: 3px solid #2E94E3;
+    border-radius: 40px;
+    /*-webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));*/
+    transition: all 500ms ease;
+}
+
+.btn_box:hover {
+    /*background: #2E94E3;*/
+    box-shadow: 0 0 30px #2E94E3;
+}
+
+#profil {
+    border-radius: 90px;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+#titel {
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+}
+
+#youtube {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #851010, #fa0000);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#youtube:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+#youtube_2 {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #851010, #fa0000);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#youtube_2:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+#instagram {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#instagram:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+#tiktok {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, rgb(0, 255, 255), rgb(104, 238, 238), rgb(255, 168, 168), rgb(255, 45, 45), rgb(255, 0, 0));
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#tiktok:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+
+/*Aqua global box*/
+
+
+.aqua_global_box {
+    margin-bottom: 20vh;
+
+    color: white;
+    background: /*#10101E*/ rgba(255, 255, 255, 0.05);
+    font-family: "Segoe UI", sans-serif;
+    width: 300px;
+    padding: 15px 100px;
+    border: 3px solid #2E94E3;
+    border-radius: 40px;
+    /*-webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));*/
+    transition: all 500ms ease;
+}
+
+.aqua_global_box:hover {
+    /*background: #2E94E3;*/
+    box-shadow: 0 0 30px #2E94E3;
+}
+
+#aqua_global_icon {
+    border-radius: 90px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    width: 100px;
+}
+
+#titel_aqua_global {
+    margin-left: 20%;
+    letter-spacing: 3px;
+    font-size: 1.4rem;
+}
+
+/*Start all button*/
+
+/*aqua_global_btn_box_1*/
+#aqua_global_pure_nino_mini_touch_1 {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 10px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_pure_nino_mini_touch_1:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+#aqua_global_pure_nino_mini_touch_2, #aqua_global_pure_nino_mini_touch_3 {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_pure_nino_mini_touch_2:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+#aqua_global_pure_nino_mini_touch_3:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+/*aqua_global_btn_box_2*/
+#aqua_global_pure_nino_flexible_Touch_1 {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 10px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_pure_nino_flexible_Touch_1:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+#aqua_global_pure_nino_flexible_Touch_2, #aqua_global_pure_nino_flexible_Touch_3, #aqua_global_pure_nino_flexible_Touch_4 {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_pure_nino_flexible_Touch_2:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+#aqua_global_pure_nino_flexible_Touch_3:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+#aqua_global_pure_nino_flexible_Touch_4:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+/*aqua_global_btn_box_3*/
+#aqua_global_hydrogenflasche_schwarz {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 10px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_hydrogenflasche_schwarz:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+#aqua_global_hydrogenflasche_weiss {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_hydrogenflasche_weiss:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+#aqua_global_video {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #851010, #fa0000);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_video:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+
+#aqua_global_video_info {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 12px 36px;
+    margin: 10px 0px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #851010, #fa0000);
+    transition: all 500ms ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#aqua_global_video_info:hover {
+    box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+    transform: translate(0, -0.5rem);
+}
+
+
+
+/*End all button*/
+
+/*image start*/
+
+#aqua_global_img_pure_nino_mini_touch, #aqua_global_img_pure_nino_flexible_touch {
+    width: 100px;
+    margin-left: 50px;
+}
+
+#aqua_global_img_hydrogenflasche_schwarz {
+    width: 28px;
+    margin-left: 50px;
+}
+
+/*image end*/
+
+#info_text_aqua_global {
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+}
+
+
+/*--------------------------------------------------*/
+/*Handy version*/
+
+@media (max-width: 550px) {
+    
+    body {
+        /*height: 100vh;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('assets/img/bg.png');
+    }
+
+    #print {
+        display: none;
+    }
+
+    .main {
+        margin-top: 5vh;
+    }
+
+    .btn_box {
+        /*margin-left: 1%;*/
+
+        color: white;
+        background: rgba(255, 255, 255, 0.05);
+        font-family: "Segoe UI", sans-serif;
+        width: 190px;
+        padding: 15px 70px;
+        border: 3px solid #2E94E3;
+        border-radius: 40px;
+    }
+    
+    /*.btn_box:hover {
+        box-shadow: none;
+    }*/
+
+    #profil {
+        border-radius: 90px;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    #titel {
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+
+    #youtube {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        padding: 12px 8px;
+        margin: 10px -10px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #851010, #fa0000);
+    }
+
+    #youtube_2 {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        padding: 12px 8px;
+        margin: 10px -10px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #851010, #fa0000);
+    }
+
+    #instagram {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        padding: 12px 8px;
+        margin: 10px -10px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #755bea, #ff72c0);
+    }
+
+    #tiktok {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        padding: 12px 8px;
+        margin: 10px -10px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, rgb(0, 255, 255), rgb(104, 238, 238), rgb(255, 206, 206), rgb(255, 45, 45), rgb(255, 0, 0));
+    }
+
+
+    /*Aqua global box*/
+
+
+    .aqua_global_box {
+        margin-bottom: 20vh;
+        /*margin-left: 1%;*/
+    
+        color: white;
+        background: rgba(255, 255, 255, 0.05);
+        font-family: "Segoe UI", sans-serif;
+        width: 190px;
+        padding: 15px 70px;
+        border: 3px solid #2E94E3;
+        border-radius: 40px;
+        /*-webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));*/
+    }
+    
+    /*.aqua_global_box:hover {
+        box-shadow: none;
+    }*/
+
+    #aqua_global_icon {
+        border-radius: 90px;
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+        width: 100px;
+    }
+
+    #titel_aqua_global {
+        margin-left: 10%;
+        letter-spacing: 3px;
+        font-size: 1.4rem;
+    }
+
+    /*Start all button*/
+
+    /*aqua_global_btn_box_1*/
+    #aqua_global_pure_nino_mini_touch_1 {
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        padding: 10px 25px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    #aqua_global_pure_nino_mini_touch_2, #aqua_global_pure_nino_mini_touch_3 {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        padding: 10px 25px;
+        margin: 10px 50px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    /*aqua_global_btn_box_2*/
+    #aqua_global_pure_nino_flexible_Touch_1 {
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        padding: 10px 25px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    #aqua_global_pure_nino_flexible_Touch_2, #aqua_global_pure_nino_flexible_Touch_3, #aqua_global_pure_nino_flexible_Touch_4 {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        padding: 10px 25px;
+        margin: 10px 50px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    /*aqua_global_btn_box_3*/
+    #aqua_global_hydrogenflasche_schwarz {
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        padding: 10px 25px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    #aqua_global_hydrogenflasche_weiss {
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        padding: 10px 0px;
+        margin: 10px 50px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    /*End all button*/
+
+    /*image start*/
+
+    #aqua_global_img_pure_nino_mini_touch {
+        width: 50px;
+        margin-left: 50px;
+    }
+
+    #aqua_global_img_pure_nino_flexible_touch {
+        width: 50px;
+        margin-left: 50px;
+    }
+    
+    #aqua_global_img_hydrogenflasche_schwarz {
+        width: 20px;
+        margin-left: 50px;
+    }
+
+    /*image end*/
+
+    #info_text_aqua_global_1 {
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+
+    #info_text_aqua_global_2 {
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+    }
+
+
+    #aqua_global_video_info {
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        padding: 12px 36px;
+        margin: 10px 0px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #851010, #fa0000);
+        transition: all 500ms ease;
+    }
+    
+    #aqua_global_video_info:hover {
+        box-shadow: 0 1.9rem 3.8rem rgba(255, 255, 255, 0.3), 0 1.5rem 1.2rem rgba(255, 255, 255, 0.22);
+        transform: translate(0, -0.5rem);
+    }
+}
+
+
+/*Handy version End*/
+
+
+
+/*Print Start*/
+
+
+@media print {
+    
+    .main {
+        display: none;
+    }
+
+    #print {
+        display: block;
+    }
+
+    h3 {
+        margin-left: 40px;
+    }
+}
+
+
+/*Print End*/

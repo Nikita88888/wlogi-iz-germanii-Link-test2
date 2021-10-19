@@ -1,0 +1,64 @@
+.menu {
+    margin-top: 5vh;
+    color: white;
+    background: /*#10101E*/ rgba(255, 255, 255, 0.05);
+    font-family: "Segoe UI", sans-serif;
+    width: 400px;
+    padding: 15px 50px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    /*-webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));*/
+    margin-bottom: 28px;
+
+}
+
+.menu:hover {
+    /*background: #2E94E3;*/
+    box-shadow: 0 0 30px #2E94E3;
+}
+
+#menu_tasse_btn {
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+    background: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 45px;
+}
+
+#menu_tasse_btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px white;
+}
+
+#menu_pflasche_btn {
+    padding: 20px 20px;
+    margin-right: 25px;
+    background: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 45px;
+}
+
+#menu_pflasche_btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px white;
+}
+
+#menu_warenkorb_btn {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 45px;
+}
+
+#menu_warenkorb_btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px white;
+}
